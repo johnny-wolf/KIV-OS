@@ -1,4 +1,5 @@
-﻿  kernel.cpp
+﻿  parser.cpp
+  kernel.cpp
   io.cpp
   dllmain.cpp
   Generating Code...
