@@ -1,0 +1,7 @@
+﻿  shell.cpp
+  rtl.cpp
+  dllmain.cpp
+  Generating Code...
+     Creating library ..\..\compiled\user.lib and object ..\..\compiled\user.exp
+  user.vcxproj -> C:\Users\Pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\user\..\..\compiled\user.dll
+  user.vcxproj -> ..\..\compiled\user.pdb (Full PDB)

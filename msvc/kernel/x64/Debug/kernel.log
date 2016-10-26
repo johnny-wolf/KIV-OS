@@ -1,0 +1,7 @@
+﻿  kernel.cpp
+  io.cpp
+  dllmain.cpp
+  Generating Code...
+     Creating library ..\..\compiled\kernel.lib and object ..\..\compiled\kernel.exp
+  kernel.vcxproj -> C:\Users\Pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
+  kernel.vcxproj -> ..\..\compiled\kernel.pdb (Full PDB)
