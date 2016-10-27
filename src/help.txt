@@ -6,5 +6,7 @@ std::string::npos - -1, taky znamená poslední char Stringu (èili do konce String
 std::string.substr(size_t start, size_t end) - udìlá substring od pozice start do pozice end
 std::smatch - instance match_result - používá se pro test na shodu
 std::smatch.position() - vrací pozici posledního znaku v smatch objectu
+std::smatch.str() - vrací string který vyhovuje zadanému regexu
+std::smatch.suffix() - vrací string, který je za výsledkem vyhovujícím zadanému regexu
 std::vector.push_back(Object O) - dá O na konec vektoru (vèetnì alokace pamìti a pointeru)
 

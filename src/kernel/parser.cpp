@@ -112,9 +112,10 @@ bool Parser::parse_command(std::string command, struct CommandParameters * comma
 
 	//Initialize command parameters
 	*commandPar = { false, false, false, "", "", "", "" };
-	//
-	bool leftPending = false;
-	bool rightPending = false;
+	// < and waiting for path
+	bool inChangePending = false;
+	// > and waiting for path
+	bool outChangePending = false;
 	//Position
 	int pos = 0;
 
@@ -136,5 +137,97 @@ bool Parser::parse_command(std::string command, struct CommandParameters * comma
 	}
 	commandPar->command = commandWord;
 
+	while (std::regex_search(command, matchResult, RGX_command_parameters)) {
+		//Get next match of ", \, <, > and substring it from command until this match
+		std::string str = matchResult.str();
+		command = matchResult.suffix();
+
+		if (str == "\"") {
+			size_t length = command.find('"');
+			std::string temp = command.substr(0, length);
+			//if there is input redirection without path
+			if (inChangePending) {
+				commandPar->inputPath;
+				inChangePending = false;
+			}
+			//if there is output redirection without path
+			else if (outChangePending) {
+				commandPar->outputPath;
+				outChangePending = false;
+			}
+			else {
+				commandPar->parameters.push_back(temp);
+			}
+			//substring after end of path and continue from there
+			command = command.substr(length + 1, std::string::npos);
+		}
+		else if (str == ">") {
+			//If already redirected output
+			if (commandPar->redirectedOutput) {
+				error_msg = "Attempt for second output redirection";
+				return false;
+			}
+			commandPar->redirectedOutput = true;
+			if (inChangePending || outChangePending) {
+				error_msg = "Two redirect symbols in row";
+					return false;
+			}
+			outChangePending = true;
+		}
+		else if (str == "<") {
+			//If already redirected output
+			if (commandPar->redirectedInput) {
+				error_msg = "Attempt for second input redirection";
+				return false;
+			}
+			commandPar->redirectedInput = true;
+			if (inChangePending || outChangePending) {
+				error_msg = "Two redirect symbols in row";
+					return false;
+			}
+			inChangePending = true;
+		}
+		//if there is possible path
+		else if (str[0] == '/') {
+			//If there is redirection symbol after /
+			if (inChangePending || outChangePending) {
+				error_msg = "Symbol / is followed by redirection symbol";
+				return false;
+			}
+			//If there is no symbol after /
+			if (str.length() == 1) {
+				error_msg = "Symbol / does not represent path";
+				return false;
+			}
+			// If there are two /
+			if (str[1] == '/') {
+				error_msg = "Symbol / followed by another /";
+				return false;
+			}
+			commandPar->hasswitches = true;
+			commandPar->switches = commandPar->switches + str.substr(1, std::string::npos);
+
+		}
+		else {
+			//If there is input change pending
+			if (inChangePending) {
+				commandPar->inputPath = str;
+				inChangePending = false;
+			}
+			//if there is output change pending
+			else if (outChangePending) {
+				commandPar->outputPath = str;
+				outChangePending = false;
+			}
+			//if there is parameter push it into command parameters
+			else {
+				commandPar->parameters.push_back(str);
+			}
+		}
+		if (inChangePending || outChangePending) {
+			error_msg = "Command has blank redirection at the end";
+			return false;
+		}
+	}
 	return true;
 }
