@@ -1,3 +1,4 @@
 ﻿  main.cpp
-  boot.vcxproj -> C:\Users\pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\boot\..\..\compiled\boot.exe
+  LINK : ..\..\compiled\boot.exe not found or not built by the last incremental link; performing full link
+  boot.vcxproj -> C:\Users\japan\Dropbox\School\OS\sem\kiv-os\msvc\boot\..\..\compiled\boot.exe
   boot.vcxproj -> ..\..\compiled\boot.pdb (Full PDB)

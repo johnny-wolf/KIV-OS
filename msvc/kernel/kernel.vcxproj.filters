@@ -16,6 +16,9 @@
     <Filter Include="Header Files\FileSystem">
       <UniqueIdentifier>{5be830ab-cbe6-4c24-a663-3bbd293fc341}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\FileSystem">
+      <UniqueIdentifier>{d1975c4f-f901-4279-91ef-44a6a8498779}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\kernel\dllmain.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="..\..\src\kernel\process.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\kernel\FileSystem.cpp">
+      <Filter>Source Files\FileSystem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -44,7 +50,7 @@
     <ClInclude Include="..\..\src\kernel\process.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\kernel\Node.h">
+    <ClInclude Include="..\..\src\kernel\FileSystem.h">
       <Filter>Header Files\FileSystem</Filter>
     </ClInclude>
   </ItemGroup>
