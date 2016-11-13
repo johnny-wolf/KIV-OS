@@ -3,6 +3,7 @@
 #include <Windows.h>
 
 typedef HANDLE THandle;
+typedef int FDHandle;
 
 typedef size_t (__stdcall *TEntryPoint)(const CONTEXT syscall);		//vstupni bod uzivatelskeho programu
 typedef void (__stdcall *TSysCall)(CONTEXT &context);			//prototyp funkce, ktera realizuje syscall
@@ -52,11 +53,13 @@ constexpr bool test_cf(const DWORD flags) {
 //ah hodnoty 
 const __int8 scIO = 1;		//IO operace
 
-
 //al hodnoty pro scIO 
 const __int8 scCreateFile = 1;
 const __int8 scWriteFile = 2;
 const __int8 scCloseFile = 5;
+
+//al hodnoty pro scProcess
+const __int8 scCreateProcess = 1;
 
 
 constexpr __int16 Compose_AX(const __int8 ah, const __int8 al) {
