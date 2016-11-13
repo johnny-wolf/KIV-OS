@@ -28,6 +28,7 @@
     <ClInclude Include="..\..\src\common\api.h" />
     <ClInclude Include="..\..\src\kernel\io.h" />
     <ClInclude Include="..\..\src\kernel\kernel.h" />
+    <ClInclude Include="..\..\src\kernel\Node.h" />
     <ClInclude Include="..\..\src\kernel\process.h" />
   </ItemGroup>
   <ItemGroup>
