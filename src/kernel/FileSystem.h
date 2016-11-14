@@ -2,18 +2,18 @@
 
 #include <string>
 
-struct Node
+struct node
 {
 	std::string name;
-	Node* parent;
+	node* parent;
 };
 
-struct File : Node
+struct File : node
 {
 	std::string data;
 };
 
-struct Directory : Node
+struct Directory : node
 {
-	Node* childs[];
+	node* childs[];
 };

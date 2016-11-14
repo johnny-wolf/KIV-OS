@@ -23,15 +23,14 @@
     <ClCompile Include="..\..\src\kernel\io.cpp" />
     <ClCompile Include="..\..\src\kernel\kernel.cpp" />
     <ClCompile Include="..\..\src\kernel\process.cpp" />
-    <ClInclude Include="..\..\src\kernel\FileSystem.cpp" />
-
+    <ClInclude Include="..\..\src\kernel\fileSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\common\api.h" />
     <ClInclude Include="..\..\src\kernel\io.h" />
     <ClInclude Include="..\..\src\kernel\kernel.h" />
     <ClInclude Include="..\..\src\kernel\process.h" />
-    <ClInclude Include="..\..\src\kernel\FileSystem.h" />
+    <ClInclude Include="..\..\src\kernel\fileSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

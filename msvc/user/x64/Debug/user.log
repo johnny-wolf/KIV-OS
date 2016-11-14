@@ -1,7 +1,7 @@
-﻿  rtl.cpp
-  Generating Code...
-  Compiling...
-  shell.cpp
+﻿  shell.cpp
+  rtl.cpp
+  dllmain.cpp
+  parser.cpp
   Generating Code...
      Creating library ..\..\compiled\user.lib and object ..\..\compiled\user.exp
   user.vcxproj -> C:\Users\pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\user\..\..\compiled\user.dll
