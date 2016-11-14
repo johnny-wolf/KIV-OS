@@ -2,16 +2,18 @@
 #include <iostream>
 #include <string>
 #include "rtl.h"
+#include "parser.h"
 
 
 size_t __stdcall shell(const CONTEXT &regs) {
 	//THandle stdin = Create_File("CONOUT$", FILE_SHARE_WRITE);	//nahradte systemovym resenim, zatim viz Console u CreateFile na MSDN
 	std::string s;
+	Parser parser;
 
 	do
 	{
 		std::getline(std::cin, s);
-
+		parser.parse_commands(s, nullptr);
 		//const char* hello = "Hello world!\n";
 		//size_t written;
 		//Write_File(stdin, hello, strlen(hello), written);
