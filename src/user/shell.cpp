@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include <string>
 #include "rtl.h"
 #include "shell.h"
@@ -27,6 +28,7 @@ void parseLine(std::string line, Parser p) {
 size_t __stdcall shell(const CONTEXT &regs) {
 	//THandle stdin = Create_File("CONOUT$", FILE_SHARE_WRITE);	//nahradte systemovym resenim, zatim viz Console u CreateFile na MSDN
 	std::string s;
+	Parser parser;
 
 	//parser
 	Parser p;
@@ -44,6 +46,7 @@ size_t __stdcall shell(const CONTEXT &regs) {
 		std::cout << "You typed: " + s + ", parsing command\n";
 		parseLine(s, p);
 
+		//parser.parse_commands(s, nullptr);
 		//const char* hello = "Hello world!\n";
 		//size_t written;
 		//Write_File(stdin, hello, strlen(hello), written);
