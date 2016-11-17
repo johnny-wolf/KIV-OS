@@ -20,7 +20,7 @@ typedef struct process_control_block {
 	//Process name
 	const char * name;
 	//Pointers to nodes for current directory and root directory
-	node *current_dir, *root_dir;//mozna node asi
+	fsNode *current_dir, *root_dir;//mozna node asi
 	//I/O descriptors
 	std::vector<FDHandle> IO_decriptors; //tabulka souboru daneho procesu index by mel byt file descriptor
 										 //0 = stdin, 1 = stdout, 2 = stderr
@@ -32,7 +32,7 @@ typedef struct create_process_params {
 	//Handles for in, out and error
 	FDHandle STDOUT, STDIN, STDERR;
 	//Nodes
-	node  *current_node, *root_node; //?
+	fsNode  *current_node, *root_node; //?
 	//If switched directory
 	char * switches;
 	//parameters

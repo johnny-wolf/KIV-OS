@@ -1,10 +1,8 @@
 ﻿  process.cpp
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\src\kernel\filesystem.h(18): warning C4200: nonstandard extension used: zero-sized array in struct/union
-  c:\users\pavel\documents\visual studio 2015\projects\kiv-os\src\kernel\filesystem.h(18): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
   kernel.cpp
   io.cpp
   dllmain.cpp
   Generating Code...
      Creating library ..\..\compiled\kernel.lib and object ..\..\compiled\kernel.exp
-  kernel.vcxproj -> C:\Users\pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
+  kernel.vcxproj -> C:\Users\japan\Dropbox\School\OS\sem\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
   kernel.vcxproj -> ..\..\compiled\kernel.pdb (Full PDB)

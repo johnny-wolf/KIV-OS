@@ -1,19 +1,8 @@
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\vc140.pdb
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\vc140.idb
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\dllmain.obj
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\io.obj
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.obj
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\process.obj
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\kernel.lib
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\kernel.exp
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\kernel.ilk
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\kernel.dll
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\kernel.pdb
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.tlog\cl.command.1.tlog
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.tlog\cl.read.1.tlog
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.tlog\cl.write.1.tlog
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.tlog\kernel.write.1u.tlog
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.tlog\link.command.1.tlog
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.tlog\link.read.1.tlog
-c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\kernel\x64\debug\kernel.tlog\link.write.1.tlog
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\vc140.pdb
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\vc140.idb
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\dllmain.obj
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\io.obj
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\kernel.obj
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\kernel.tlog\cl.command.1.tlog
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\kernel.tlog\cl.read.1.tlog
+c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\kernel\x64\debug\kernel.tlog\cl.write.1.tlog
