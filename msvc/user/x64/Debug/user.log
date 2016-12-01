@@ -3,6 +3,7 @@
   dllmain.cpp
   parser.cpp
   Generating Code...
+  LINK : ..\..\compiled\user.dll not found or not built by the last incremental link; performing full link
      Creating library ..\..\compiled\user.lib and object ..\..\compiled\user.exp
-  user.vcxproj -> C:\Users\japan\Dropbox\School\OS\sem\kiv-os\msvc\user\..\..\compiled\user.dll
+  user.vcxproj -> C:\Users\pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\user\..\..\compiled\user.dll
   user.vcxproj -> ..\..\compiled\user.pdb (Full PDB)
