@@ -3,6 +3,9 @@
 #include "..\common\api.h"
 #include <iostream>
 
+/*
+Pipe Constructor
+*/
 pipe::pipe()
 {
 	InitializeConditionVariable(&buffer_full);
@@ -16,7 +19,7 @@ pipe::pipe()
 Function for writting multiple chars
 @string array of chars
 @len length of array
-@written 
+@written number of written chars
 */
 bool pipe::write(char * string, size_t len, size_t * written)
 {
@@ -57,7 +60,13 @@ bool pipe::write(char c)
 	return true;
 }
 
-
+/*
+Function for reading from file
+@count number of chars to be read from file
+@str char array to put read chars into
+@r position in array
+@return if all read
+*/
 bool pipe::read(size_t count, char *str, size_t *r)
 {
 	int pos = 0;
@@ -75,6 +84,7 @@ bool pipe::read(size_t count, char *str, size_t *r)
 
 /*
 Function to determine, if there can be EOF
+@available 1 if closed input, queue size otherwise
 */
 bool pipe::peek(size_t * available)
 {
@@ -90,6 +100,7 @@ bool pipe::peek(size_t * available)
 
 /*
 Function for reading a char
+@return read char
 */
 char pipe::read()
 {
@@ -128,6 +139,9 @@ void pipe::close_write()
 	WakeConditionVariable(&buffer_empty);
 }
 
+/*
+Pipe Destructor
+*/
 pipe::~pipe()
 {
 	DeleteCriticalSection(&crit_sec);

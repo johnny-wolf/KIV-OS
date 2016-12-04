@@ -4,7 +4,6 @@
   io.cpp
   dllmain.cpp
   Generating Code...
-  LINK : ..\..\compiled\kernel.dll not found or not built by the last incremental link; performing full link
      Creating library ..\..\compiled\kernel.lib and object ..\..\compiled\kernel.exp
   kernel.vcxproj -> C:\Users\pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
   kernel.vcxproj -> ..\..\compiled\kernel.pdb (Full PDB)
