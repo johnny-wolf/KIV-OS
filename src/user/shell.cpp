@@ -26,9 +26,13 @@ void parseLine(std::string line, Parser p) {
 }
 
 size_t __stdcall shell(const CONTEXT &regs) {
+	
 	//THandle stdin = Create_File("CONOUT$", FILE_SHARE_WRITE);	//nahradte systemovym resenim, zatim viz Console u CreateFile na MSDN
+	
+
 	std::string s;
-	Parser parser;
+	
+	std::cout << "Console is starting \n";
 
 	//parser
 	Parser p;

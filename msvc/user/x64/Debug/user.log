@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 ﻿     Creating library ..\..\compiled\user.lib and object ..\..\compiled\user.exp
   user.vcxproj -> C:\Users\japan\Dropbox\School\OS\sem\kiv-os\msvc\user\..\..\compiled\user.dll
+=======
+﻿  shell.cpp
+     Creating library ..\..\compiled\user.lib and object ..\..\compiled\user.exp
+  user.vcxproj -> C:\Users\pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\user\..\..\compiled\user.dll
+>>>>>>> d445359ef03be1874290f72b5efb23c1381c3318
   user.vcxproj -> ..\..\compiled\user.pdb (Full PDB)

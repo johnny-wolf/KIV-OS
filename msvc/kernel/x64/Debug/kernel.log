@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 ﻿  fileSystem.cpp
   kernel.vcxproj -> C:\Users\japan\Dropbox\School\OS\sem\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
+=======
+﻿  process.cpp
+  pipe.cpp
+  kernel.cpp
+  io.cpp
+  dllmain.cpp
+  Generating Code...
+     Creating library ..\..\compiled\kernel.lib and object ..\..\compiled\kernel.exp
+  kernel.vcxproj -> C:\Users\pavel\Documents\Visual Studio 2015\Projects\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
+>>>>>>> d445359ef03be1874290f72b5efb23c1381c3318
   kernel.vcxproj -> ..\..\compiled\kernel.pdb (Full PDB)

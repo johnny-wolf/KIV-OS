@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\user\x64\debug\vc140.pdb
 c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\user\x64\debug\vc140.idb
 c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\user\x64\debug\parser.obj
@@ -17,3 +18,24 @@ c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\user\x64\debug\user.tlog\link.c
 c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\user\x64\debug\user.tlog\link.read.1.tlog
 c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\user\x64\debug\user.tlog\link.write.1.tlog
 c:\users\japan\dropbox\school\os\sem\kiv-os\msvc\user\x64\debug\user.tlog\user.write.1u.tlog
+=======
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\vc140.pdb
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\vc140.idb
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\parser.obj
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\dllmain.obj
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\rtl.obj
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\shell.obj
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\user.ilk
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\user.dll
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\user.pdb
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\user.lib
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\compiled\user.exp
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\..\..\compiled\user.dll
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\user.tlog\cl.command.1.tlog
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\user.tlog\cl.read.1.tlog
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\user.tlog\cl.write.1.tlog
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\user.tlog\link.command.1.tlog
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\user.tlog\link.read.1.tlog
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\user.tlog\link.write.1.tlog
+c:\users\pavel\documents\visual studio 2015\projects\kiv-os\msvc\user\x64\debug\user.tlog\user.write.1u.tlog
+>>>>>>> d445359ef03be1874290f72b5efb23c1381c3318
