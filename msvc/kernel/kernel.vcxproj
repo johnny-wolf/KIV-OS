@@ -23,7 +23,7 @@
     <ClCompile Include="..\..\src\kernel\io.cpp" />
     <ClCompile Include="..\..\src\kernel\kernel.cpp" />
     <ClCompile Include="..\..\src\kernel\process.cpp" />
-    <ClInclude Include="..\..\src\kernel\fileSystem.cpp" />
+    <ClCompile Include="..\..\src\kernel\fileSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\common\api.h" />

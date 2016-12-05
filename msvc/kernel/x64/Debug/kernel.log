@@ -1,8 +1,3 @@
-﻿  process.cpp
-  kernel.cpp
-  io.cpp
-  dllmain.cpp
-  Generating Code...
-     Creating library ..\..\compiled\kernel.lib and object ..\..\compiled\kernel.exp
+﻿  fileSystem.cpp
   kernel.vcxproj -> C:\Users\japan\Dropbox\School\OS\sem\kiv-os\msvc\kernel\..\..\compiled\kernel.dll
   kernel.vcxproj -> ..\..\compiled\kernel.pdb (Full PDB)

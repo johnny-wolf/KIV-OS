@@ -2,6 +2,8 @@
 
 #include "kernel.h"
 #include "io.h"
+#include "FileSystem.h"
+#include <iostream>
 
 HMODULE User_Programs;
 
@@ -41,6 +43,8 @@ void Run_VM() {
 		GetThreadContext(GetCurrentThread(), &regs);  //ale pak bude jeden z registru ukazovat na nejaky startup info blok
 		shell(regs);
 	}
+
+
 
 	Shutdown_Kernel();
 }
